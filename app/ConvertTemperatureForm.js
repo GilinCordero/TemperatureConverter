@@ -24,7 +24,7 @@ export default function ConvertTemperatureForm() {
                 </View>
             </View>
             <View style={styles.buttonContainer}>
-                <Button title="CONVERTIR" style={styles.formButton} onTouchEnd={convertTemperature} />
+                <Button title="CONVERTIR" style={styles.formButton} onPressIn={convertTemperature} />
             </View>
         </MaterialStack>
     )

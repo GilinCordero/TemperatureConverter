@@ -1,5 +1,5 @@
 import {useState}  from 'react';
-import TemperatureUtil from '../utils/TemperatureUtill';
+import TemperatureUtil from '../utils/TemperatureUtil';
 import { TemperatureVO } from '../valueobjects/TemperatureVO';
 
 const useTemperatureConverter = () => {
